@@ -1,0 +1,13 @@
+brew.sh
+neovim
+vim plugged
+https://github.com/junegunn/vim-plug
+yay
+pacman
+pip
+node
+fish
+i3
+alacritty
+polybar
+pulse

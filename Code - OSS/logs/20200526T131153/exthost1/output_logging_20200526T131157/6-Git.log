@@ -1,0 +1,161 @@
+Looking for git in: git
+Using git 2.26.2 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/fulton/code/Ara-nlp
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :__init__.py
+> git ls-files --stage -- /home/fulton/code/Ara-nlp/__init__.py
+> git cat-file -s 3e86d550543c80dd23b497fd97f26068e42a484d
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/fulton/code/Ara-nlp/__init__.py
+> git cat-file -s 3e86d550543c80dd23b497fd97f26068e42a484d
+> git show :__init__.py
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/fulton/code/Ara-nlp/__init__.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/fulton/code/Ara-nlp/__init__.py
+> git cat-file -s 5461d0d3c3c4ac5b478dd714251605d6bb2d03c0
+> git show :__init__.py
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/fulton/code/Ara-nlp/tf_results.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/fulton/code/Ara-nlp/__init__.py
+> git cat-file -s 5461d0d3c3c4ac5b478dd714251605d6bb2d03c0
+> git show :__init__.py
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/fulton/code/Ara-nlp/data.csv
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/fulton/code/Ara-nlp/__init__.py
+> git cat-file -s 5461d0d3c3c4ac5b478dd714251605d6bb2d03c0
+> git show :__init__.py
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/fulton/code/Ara-nlp/requirements.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/fulton/code/Ara-nlp/__init__.py
+> git cat-file -s 5461d0d3c3c4ac5b478dd714251605d6bb2d03c0
+> git show :__init__.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git ls-files --stage -- /home/fulton/code/Ara-nlp/__init__.py
+> git cat-file -s 5461d0d3c3c4ac5b478dd714251605d6bb2d03c0
+> git show :__init__.py
+> git pull --tags origin master
+From https://github.com/FultonBrowne/Ara-nlp
+ * branch            master     -> FETCH_HEAD
+> git push origin master:master
+> git ls-files --stage -- /home/fulton/code/Ara-nlp/__init__.py
+> git cat-file -s 5461d0d3c3c4ac5b478dd714251605d6bb2d03c0
+> git show :__init__.py
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/FultonBrowne/ara-nlp.git        
+To https://github.com/FultonBrowne/Ara-nlp.git
+   4bc505c..27b236c  master -> master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/fulton/code/Ara-nlp/__init__.py
+> git cat-file -s 5461d0d3c3c4ac5b478dd714251605d6bb2d03c0
+> git show :__init__.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template

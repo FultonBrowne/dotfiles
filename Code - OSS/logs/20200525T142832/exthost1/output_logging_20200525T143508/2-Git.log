@@ -1,0 +1,115 @@
+Looking for git in: git
+Using git 2.26.2 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/fulton/code/Pegasus
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/fulton/code/Pegasus/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/fulton/code/Pegasus/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/lib/code/extensions/git/dist/main.js:1:604919)
+	at T.updateTransientWatchers (/usr/lib/code/extensions/git/dist/main.js:1:83965)
+	at e.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:46:87)
+	at e.updateModelState (/usr/lib/code/extensions/git/dist/main.js:1:103179)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git check-ignore -v -z --stdin
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/fulton/code/Pegasus/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/fulton/code/Pegasus/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/lib/code/extensions/git/dist/main.js:1:604919)
+	at T.updateTransientWatchers (/usr/lib/code/extensions/git/dist/main.js:1:83965)
+	at e.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:46:87)
+	at e.updateModelState (/usr/lib/code/extensions/git/dist/main.js:1:103179)
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :.classpath
+> git ls-files --stage -- /home/fulton/code/Pegasus/.classpath
+> git cat-file -s d2d80ded4cd3e243d681988957e0269469e09c0b
+> git show :src/main/java/software/fulton/pegasus/Utils.java
+> git ls-files --stage -- /home/fulton/code/Pegasus/src/main/java/software/fulton/pegasus/Utils.java
+> git cat-file -s ffbdf053707849e5bfb544271ba73ea2533e4478
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/main/java/software/fulton/pegasus/Spider.java
+> git ls-files --stage -- /home/fulton/code/Pegasus/src/main/java/software/fulton/pegasus/Spider.java
+> git cat-file -s 5994d55492421b0b32fbb8762a503fc313a588c6
+> git check-ignore -v -z --stdin
+> git show :src/main/kotlin/software/fulton/pegasus/Run.kt
+> git ls-files --stage -- /home/fulton/code/Pegasus/src/main/kotlin/software/fulton/pegasus/Run.kt
+> git cat-file -s 5ba8755833514a5361331427dbd3a1bc3bd4ae57
+> git show :src/main/java/software/fulton/pegasus/Utils.java
+> git ls-files --stage -- /home/fulton/code/Pegasus/src/main/java/software/fulton/pegasus/Utils.java
+> git cat-file -s ffbdf053707849e5bfb544271ba73ea2533e4478
+> git show :src/main/java/software/fulton/pegasus/Spider.java
+> git ls-files --stage -- /home/fulton/code/Pegasus/src/main/java/software/fulton/pegasus/Spider.java
+> git cat-file -s 5994d55492421b0b32fbb8762a503fc313a588c6
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/fulton/code/Pegasus/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/fulton/code/Pegasus/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/lib/code/extensions/git/dist/main.js:1:604919)
+	at T.updateTransientWatchers (/usr/lib/code/extensions/git/dist/main.js:1:83965)
+	at e.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:46:87)
+	at e.updateModelState (/usr/lib/code/extensions/git/dist/main.js:1:103179)
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/fulton/code/Pegasus/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/fulton/code/Pegasus/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/lib/code/extensions/git/dist/main.js:1:604919)
+	at T.updateTransientWatchers (/usr/lib/code/extensions/git/dist/main.js:1:83965)
+	at e.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:46:87)
+	at e.updateModelState (/usr/lib/code/extensions/git/dist/main.js:1:103179)
+> git config --get commit.template
+> git ls-files --stage -- /home/fulton/code/Pegasus/src/main/java/software/fulton/pegasus/Spider.java
+> git cat-file -s 5994d55492421b0b32fbb8762a503fc313a588c6
+> git show :src/main/java/software/fulton/pegasus/Spider.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/fulton/code/Pegasus/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/fulton/code/Pegasus/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/lib/code/extensions/git/dist/main.js:1:604919)
+	at T.updateTransientWatchers (/usr/lib/code/extensions/git/dist/main.js:1:83965)
+	at e.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:46:87)
+	at e.updateModelState (/usr/lib/code/extensions/git/dist/main.js:1:103179)
+> git config --get commit.template

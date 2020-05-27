@@ -1,0 +1,8 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "vscode-seedling-icon-theme",
+    "files.autoSave": "afterDelay",
+    "git.confirmSync": false,
+    "git.autofetch": true
+}
