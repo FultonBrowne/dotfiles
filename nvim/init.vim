@@ -19,6 +19,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 autocmd FileType java setlocal omnifunc=javacomplete#Complete
 map <C-n> :NERDTreeToggle<CR>
 map <C-t> :Te<CR>
+nnoremap <C-Left> :tabprevious<CR>
+nnoremap <C-Right> :tabnext<CR>
 nmap <F5> <Plug>(JavaComplete-Imports-Add)
 imap <F5> <Plug>(JavaComplete-Imports-Add)
 nmap <F6> <Plug>(JavaComplete-Imports-AddMissing)
@@ -41,4 +43,4 @@ let g:lightline.component_type = {
       \     'linter_ok': 'right',
       \ }
 let g:lightline.active = { 'right': [[ 'linter_checking', 'linter_errors', 'linter_warnings', 'linter_infos', 'linter_ok' ]] }
-let b:ale_linters = {'python': ['pyflakes'], 'javascript': ['xo'], 'kotlin': ['kotlinc', 'android']}
+let b:ale_linters = { 'javascript': ['xo'], 'kotlin': ['kotlinc', 'android']}
