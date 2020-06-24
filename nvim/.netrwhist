@@ -1,5 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
-let g:netrw_dirhist_3='/home/fulton/code/Pegasus'
-let g:netrw_dirhist_2='/home/fulton/code/Ara-nlp'
-let g:netrw_dirhist_1='/home/fulton/.config/nvim'
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/fulton/code/Ara-android/app/src/main/res/layout'
+let g:netrw_dirhist_5='/home/fulton/code/Ara-android/app/src/main/res'
+let g:netrw_dirhist_4='/home/fulton/code/Ara-android/app/src/main'
+let g:netrw_dirhist_3='/home/fulton/code/Ara-android/app/src'
+let g:netrw_dirhist_2='/home/fulton/code/Ara-android/app/src/main'
+let g:netrw_dirhist_1='/home/fulton/code/Ara-android/app/src/main/java'
+let g:netrw_dirhist_0='/home/fulton/code/Ara-android/app/src/main/java/com'
+let g:netrw_dirhist_9='/home/fulton/code/Ara-android/app/src/main/java/com/andromeda'
+let g:netrw_dirhist_8='/home/fulton/code/Ara-android/app/src/main/java/com/andromeda/ara'
+let g:netrw_dirhist_7='/home/fulton/code/Ara-android/app/src/main/java/com/andromeda/ara/activitys'
