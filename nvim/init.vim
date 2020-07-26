@@ -1,6 +1,5 @@
 call plug#begin('~/.nvim/plugged')
 Plug 'preservim/nerdtree'
-Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'hsanson/vim-android'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'dense-analysis/ale'
@@ -14,7 +13,6 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'udalov/kotlin-vim'
 Plug '907th/vim-auto-save'
 call plug#end()
-colorscheme dracula
 let g:auto_save = 1  " enable AutoSave on Vim startup
 let g:deoplete#enable_at_startup = 1
 let g:JavaComplete_EnableDefaultMappings = 0
