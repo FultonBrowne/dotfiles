@@ -46,7 +46,7 @@ scrollback_lines = 10000
 foreground      = #c7ccd1
 foreground_bold = #c7ccd1
 cursor          = #c7ccd1
-background      = #1c2023
+background      = rgba(63, 63, 63, 0.95)
 
 # black
 color0  = #1c2023
@@ -83,7 +83,7 @@ color15 = #f3f4f5
 # Colors from color0 to color254 can be set
 
 [hints]
-#font = Monospace 12
+font = Monospace 12
 #foreground = #dcdccc
 #background = #3f3f3f
 #active_foreground = #e68080

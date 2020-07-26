@@ -24,6 +24,7 @@ jre8-openjdk
 libtool
 light
 links
+ly
 make
 mtools
 neofetch
