@@ -35,6 +35,7 @@ picom
 pkgconf
 python
 python-pip
+scrot
 termite
 texinfo
 tmux
