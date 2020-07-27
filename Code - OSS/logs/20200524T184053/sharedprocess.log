@@ -1,8 +1,0 @@
-[2020-05-24 18:40:56.990] [sharedprocess] [info] main {"machineId":"02bb50dec534ecbefa15a4a61c84d4362f12ebecbb562454ff5a0c67bd872a9d","windowId":2}
-[2020-05-24 18:41:37.016] [sharedprocess] [info] Starting to clean up unused language packs.
-[2020-05-24 18:50:05.513] [sharedprocess] [info] Installing extension: eamodio.gitlens
-[2020-05-24 18:50:07.013] [sharedprocess] [info] Downloaded extension: eamodio.gitlens /tmp/0374b3fd-60dd-4439-a278-c0f14554a5dc
-[2020-05-24 18:50:07.440] [sharedprocess] [info] Extracted extension to /home/fulton/.vscode-oss/extensions/.eamodio.gitlens-10.2.1: eamodio.gitlens
-[2020-05-24 18:50:07.441] [sharedprocess] [info] Renamed to /home/fulton/.vscode-oss/extensions/eamodio.gitlens-10.2.1
-[2020-05-24 18:50:07.448] [sharedprocess] [info] Installation completed. eamodio.gitlens
-[2020-05-24 18:50:07.464] [sharedprocess] [info] Extensions installed successfully: eamodio.gitlens
