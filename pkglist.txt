@@ -28,6 +28,7 @@ make
 mtools
 neofetch
 neovim
+ninja
 os-prober
 patch
 picom
