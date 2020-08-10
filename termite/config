@@ -83,7 +83,6 @@ color15 = #f3f4f5
 # Colors from color0 to color254 can be set
 
 [hints]
-font = Monospace 12
 #foreground = #dcdccc
 #background = #3f3f3f
 #active_foreground = #e68080

@@ -14,3 +14,6 @@ git clone https://github.com/adi1090x/dynamic-wallpaper.git
 cd dynamic-wallpaper
 chmod +x install.sh
 ./install.sh
+cd $HOME/.config/polybar
+cp -r fonts/* ~/.local/share/fonts
+fc-cache -v
